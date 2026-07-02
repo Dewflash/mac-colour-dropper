@@ -18,7 +18,7 @@
 		01A000000000000000000002 /* ColorDropModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDropModel.swift; sourceTree = "<group>"; };
 		01A000000000000000000003 /* ColorSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSample.swift; sourceTree = "<group>"; };
 		01A000000000000000000004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		01A000000000000000000005 /* ColorDrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorDrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01A000000000000000000005 /* ColourDrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColourDrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01A000000000000000000006 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,7 +56,7 @@
 		01A000000000000000000032 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				01A000000000000000000005 /* ColorDrop.app */,
+				01A000000000000000000005 /* ColourDrop.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,8 +77,8 @@
 			dependencies = (
 			);
 			name = ColorDrop;
-			productName = ColorDrop;
-			productReference = 01A000000000000000000005 /* ColorDrop.app */;
+			productName = ColourDrop;
+			productReference = 01A000000000000000000005 /* ColourDrop.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -268,8 +268,8 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 0.1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dewflash.ColorDrop;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dewflash.ColourDrop;
+				PRODUCT_NAME = ColourDrop;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -290,8 +290,8 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 0.1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dewflash.ColorDrop;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dewflash.ColourDrop;
+				PRODUCT_NAME = ColourDrop;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};

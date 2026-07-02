@@ -1,6 +1,6 @@
-# ColorDrop Implementation Notes
+# ColourDrop Implementation Notes
 
-ColorDrop is a native macOS 13+ menu bar utility. It has no main window and no Dock icon.
+ColourDrop is a native macOS 13+ menu bar utility. It has no main window and no Dock icon.
 
 ## App Shell
 

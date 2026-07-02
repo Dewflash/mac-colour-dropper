@@ -10,7 +10,7 @@ struct ColorDropApp: App {
         MenuBarExtra {
             ColorDropMenu(model: model)
         } label: {
-            Label("ColorDrop", systemImage: "eyedropper")
+            Label("ColourDrop", systemImage: "eyedropper")
         }
         .menuBarExtraStyle(.menu)
     }
@@ -62,7 +62,7 @@ struct ColorDropMenu: View {
         Button {
             NSApp.terminate(nil)
         } label: {
-            Label("Quit ColorDrop", systemImage: "power")
+            Label("Quit ColourDrop", systemImage: "power")
         }
         .keyboardShortcut("q")
     }

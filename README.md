@@ -1,6 +1,6 @@
-# ColorDrop
+# ColourDrop
 
-ColorDrop is a native macOS menu bar color dropper for quickly sampling a screen color and copying its HEX value.
+ColourDrop is a native macOS menu bar color dropper for quickly sampling a screen color and copying its HEX value.
 
 ## Requirements
 
@@ -9,7 +9,7 @@ ColorDrop is a native macOS menu bar color dropper for quickly sampling a screen
 
 ## Usage
 
-1. Launch ColorDrop.
+1. Launch ColourDrop.
 2. Click the menu bar icon.
 3. Choose **Pick Color**.
 4. Click a color anywhere on screen.
