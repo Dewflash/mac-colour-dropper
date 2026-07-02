@@ -10,6 +10,7 @@
 		01A000000000000000000011 /* ColorDropApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A000000000000000000001 /* ColorDropApp.swift */; };
 		01A000000000000000000012 /* ColorDropModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A000000000000000000002 /* ColorDropModel.swift */; };
 		01A000000000000000000013 /* ColorSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A000000000000000000003 /* ColorSample.swift */; };
+		01A000000000000000000014 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01A000000000000000000006 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +19,7 @@
 		01A000000000000000000003 /* ColorSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSample.swift; sourceTree = "<group>"; };
 		01A000000000000000000004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01A000000000000000000005 /* ColorDrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorDrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01A000000000000000000006 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +48,7 @@
 				01A000000000000000000002 /* ColorDropModel.swift */,
 				01A000000000000000000003 /* ColorSample.swift */,
 				01A000000000000000000004 /* Info.plist */,
+				01A000000000000000000006 /* Assets.xcassets */,
 			);
 			path = ColorDrop;
 			sourceTree = "<group>";
@@ -116,6 +119,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01A000000000000000000014 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +256,7 @@
 		01A000000000000000000071 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -273,6 +278,7 @@
 		01A000000000000000000072 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
