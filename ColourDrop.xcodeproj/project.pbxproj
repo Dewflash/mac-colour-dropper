@@ -64,9 +64,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		01A000000000000000000040 /* ColorDrop */ = {
+		01A000000000000000000040 /* ColourDrop */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 01A000000000000000000070 /* Build configuration list for PBXNativeTarget "ColorDrop" */;
+			buildConfigurationList = 01A000000000000000000070 /* Build configuration list for PBXNativeTarget "ColourDrop" */;
 			buildPhases = (
 				01A000000000000000000020 /* Sources */,
 				01A000000000000000000021 /* Frameworks */,
@@ -76,7 +76,7 @@
 			);
 			dependencies = (
 			);
-			name = ColorDrop;
+			name = ColourDrop;
 			productName = ColourDrop;
 			productReference = 01A000000000000000000005 /* ColourDrop.app */;
 			productType = "com.apple.product-type.application";
@@ -96,7 +96,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 01A000000000000000000060 /* Build configuration list for PBXProject "ColorDrop" */;
+			buildConfigurationList = 01A000000000000000000060 /* Build configuration list for PBXProject "ColourDrop" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -109,7 +109,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				01A000000000000000000040 /* ColorDrop */,
+				01A000000000000000000040 /* ColourDrop */,
 			);
 		};
 /* End PBXProject section */
@@ -300,7 +300,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		01A000000000000000000060 /* Build configuration list for PBXProject "ColorDrop" */ = {
+		01A000000000000000000060 /* Build configuration list for PBXProject "ColourDrop" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				01A000000000000000000061 /* Debug */,
@@ -309,7 +309,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		01A000000000000000000070 /* Build configuration list for PBXNativeTarget "ColorDrop" */ = {
+		01A000000000000000000070 /* Build configuration list for PBXNativeTarget "ColourDrop" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				01A000000000000000000071 /* Debug */,
