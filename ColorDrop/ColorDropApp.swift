@@ -41,13 +41,19 @@ struct ColorDropMenu: View {
             Button {
                 model.copy(sample.hex)
             } label: {
-                Label(sample.hex, systemImage: "number")
+                Label(copyLabel("HEX", value: sample.hex), systemImage: "number")
+            }
+
+            Button {
+                model.copy(sample.plainHex)
+            } label: {
+                Label(copyLabel("Plain HEX", value: sample.plainHex), systemImage: "number")
             }
 
             Button {
                 model.copy(sample.rgb)
             } label: {
-                Label(sample.rgb, systemImage: "slider.horizontal.3")
+                Label(copyLabel("RGB", value: sample.rgb), systemImage: "slider.horizontal.3")
             }
         }
 
@@ -59,5 +65,10 @@ struct ColorDropMenu: View {
             Label("Quit ColorDrop", systemImage: "power")
         }
         .keyboardShortcut("q")
+    }
+
+    private func copyLabel(_ title: String, value: String) -> String {
+        let copiedSuffix = model.lastCopiedValue == value ? " (copied)" : ""
+        return "\(title) \(value)\(copiedSuffix)"
     }
 }

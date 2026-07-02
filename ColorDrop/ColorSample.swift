@@ -20,6 +20,10 @@ struct ColorSample: Equatable {
         String(format: "#%02X%02X%02X", red, green, blue)
     }
 
+    var plainHex: String {
+        String(format: "%02X%02X%02X", red, green, blue)
+    }
+
     var rgb: String {
         "rgb(\(red), \(green), \(blue))"
     }

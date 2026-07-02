@@ -5,6 +5,7 @@ import SwiftUI
 final class ColorDropModel: ObservableObject {
     @Published private(set) var isPicking = false
     @Published private(set) var lastSample: ColorSample?
+    @Published private(set) var lastCopiedValue: String?
 
     private let sampler = NSColorSampler()
     private let pasteboard: NSPasteboard
@@ -45,6 +46,11 @@ final class ColorDropModel: ObservableObject {
 
     func copy(_ value: String) {
         pasteboard.clearContents()
-        pasteboard.setString(value, forType: .string)
+        guard pasteboard.setString(value, forType: .string) else {
+            NSSound.beep()
+            return
+        }
+
+        lastCopiedValue = value
     }
 }
