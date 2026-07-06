@@ -1,0 +1,24 @@
+ColourDrop 1.0 Install Notes
+
+This is an unsigned indie Mac build. The app works offline and does not need internet.
+
+DMG install:
+1. Open ColourDrop-1.0.dmg.
+2. Drag ColourDrop.app to the Applications shortcut.
+3. Eject the ColourDrop disk image.
+4. Open ColourDrop from Applications.
+
+ZIP install:
+1. Unzip ColourDrop-1.0.zip.
+2. Drag ColourDrop.app to Applications.
+3. Open ColourDrop from Applications.
+
+If macOS blocks first launch:
+1. Right-click ColourDrop.app.
+2. Choose Open.
+3. Click Open again if macOS asks you to confirm.
+
+Notes:
+- Opening the app directly from the DMG or unzipped folder is okay for quick testing.
+- Dragging to Applications is better for normal daily use.
+- ColourDrop is local/offline and does not send data anywhere.
